@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+body,html{
+    scroll-behavior: smooth;
+}
+
+/* -----------------------from here css will start for the first hero page----------------------------- */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    /* background-color: #f4f4f4; */
+    padding: 100px 0;
+    margin-top: 20px;
+  }
+  
+  .hero-title {
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 2.15rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-image img {
+    max-width: 75%;
+    border-radius:55%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  span{
+    color: red;
+  }
+  
+
+
+  .about-container {
+    /* background-color: #fff; */
+    padding: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    --webkit-box-shadow: -1px 5px 36px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 36px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 36px -5px rgba(0,0,0,0.75);
+    transition: transform 0.3s;
+  }
+
+  .about-container:hover {
+    transform: translateY(-30px);
+  }
+
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  /* -------------------------from here skills seciton ------------------------------- */
+
+
+
+  .skill-item {
+    margin-top: 4rem;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: #fff; */
+    -webkit-box-shadow: 1px 1px 23px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 23px 6px rgba(0,0,0,0.75);
+     box-shadow: 1px 1px 23px 6px rgba(0,0,0,0.75);
+    transition: transform 0.3s;
+  }
+
+  #title2{
+    margin-top: 5rem;
+  }
+
+  .skill-item:hover {
+    transform: translateY(-15px);
+  }
+
+  .progress {
+    height: 10px;
+    border-radius: 5px;
+  }
+
+
+  /* --------------------------------------projects section hero---------------------------------------- */
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+  
+
+.text {
+  position: relative;
+  width: 450px;
+  left: 50%;
+  margin-left: -200px;
+  height: 50px; 
+  margin-top:5rem;
+}
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  font-size:45px ;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
