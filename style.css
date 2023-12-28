@@ -7,6 +7,11 @@ body,html{
     scroll-behavior: smooth;
 }
 
+#navbar{
+  -webkit-box-shadow: inset -1px -9px 111px 68px rgba(13,3,13,1);
+-moz-box-shadow: inset -1px -9px 111px 68px rgba(13,3,13,1);
+box-shadow: inset -1px -9px 111px 68px rgba(13,3,13,1);
+}
 /* -----------------------from here css will start for the first hero page----------------------------- */
 body {
     font-family: Arial, sans-serif;
@@ -100,69 +105,3 @@ body {
 
   /* --------------------------------------projects section hero---------------------------------------- */
 
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-
-  
-
-.text {
-  position: relative;
-  width: 450px;
-  left: 50%;
-  margin-left: -200px;
-  height: 50px; 
-  margin-top:5rem;
-}
-
-.text p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-  font-size:45px ;
-}
-
-.word {
-  position: absolute;
-  width: 220px;
-  opacity: 0;
-}
-
-.letter {
-  display: inline-block;
-  position: relative;
-  transform: translateZ(25px);
-  transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-  transform: rotateX(90deg);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.letter.behind {
-  transform: rotateX(-90deg);
-}
-
-.letter.in {
-  transform: rotateX(0deg);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.wisteria {
-  color: #8e44ad;
-}
-
-.belize {
-  color: #2980b9;
-}
-
-.pomegranate {
-  color: #c0392b;
-}
-
-.green {
-  color: #16a085;
-}
-
-.midnight {
-  color: #2c3e50;
-}
