@@ -47,3 +47,40 @@ function myFunction() {
   });
 
   
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the More button element by its ID
+    const moreButton = document.getElementById("moreButton");
+  
+    // Get the content card element by its ID
+    const contentCard = document.getElementById("contentCard");
+  
+    // Add a click event listener to the More button
+    moreButton.addEventListener("click", function(event) {
+      // Prevent the click event from bubbling up to the document
+      event.stopPropagation();
+      
+      // Check if the content card is hidden
+      if (contentCard.style.display === 'none' || contentCard.style.display === '') {
+        // Display the content card (slide down effect)
+        $(contentCard).slideDown();
+      } else {
+        // Hide the content card (slide up effect)
+        $(contentCard).slideUp();
+      }
+    });
+  
+    // Add a click event listener to the document
+    document.addEventListener("click", function() {
+      // Hide the content card (slide up effect)
+      $(contentCard).slideUp();
+    });
+    
+    // Stop propagation when clicking inside the content card
+    contentCard.addEventListener("click", function(event) {
+      event.stopPropagation();
+    });
+  });
+  
+  
