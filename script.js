@@ -46,7 +46,6 @@ function myFunction() {
     alert('You clicked the Learn More button!');
   });
 
-  
 
 
   document.addEventListener("DOMContentLoaded", function() {
@@ -82,5 +81,6 @@ function myFunction() {
       event.stopPropagation();
     });
   });
+  
   
   
