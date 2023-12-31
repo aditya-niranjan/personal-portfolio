@@ -38,12 +38,13 @@ function myFunction() {
     var element = document.body;
     element.dataset.bsTheme =
       element.dataset.bsTheme == "light" ? "dark" : "light";
+
   }
   myFunction()
 
 
   $('.button').on('click', function() {
-    alert('You clicked the Learn More button!');
+    alert('You wont more detail please wait for few day working on data I upadate it soon');
   });
 
 
@@ -83,4 +84,4 @@ function myFunction() {
   });
   
   
-  
+   
